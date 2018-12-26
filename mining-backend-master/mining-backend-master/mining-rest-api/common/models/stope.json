@@ -1,0 +1,59 @@
+{
+  "name": "stope",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "stope_name": {
+      "type": "string",
+      "required": true
+    },
+    "number_of_people": {
+      "type": "number",
+      "required": true
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "humidity": {
+      "type": "number"
+    },
+    "mobile_assets": {
+      "type": "number"
+    },
+    "is_geofenced": {
+      "type": "boolean",
+      "default": false
+    },
+    "ready_to_geofence": {
+      "type": "boolean",
+      "default": false
+    },
+    "zone_id": {
+      "type": "string",
+      "required": true
+    },
+    "ventilator_speed": {
+      "type": "number"
+    },
+    "fall_alert": {
+      "type": "boolean",
+      "default": false
+    },
+    "SO2": {
+      "type": "number"
+    },
+    "O2": {
+      "type": "number"
+    },
+    "CO": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

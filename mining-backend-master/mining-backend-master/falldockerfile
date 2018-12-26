@@ -1,0 +1,13 @@
+FROM python
+
+ADD . /
+
+RUN pip install paho-mqtt	
+
+RUN pip install pymongo
+
+CMD ["chmod", "chmod 0777 *.py" ]
+
+CMD [ "python3", "./fall.py" ]
+
+

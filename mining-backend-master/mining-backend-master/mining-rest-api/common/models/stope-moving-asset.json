@@ -1,0 +1,26 @@
+{
+  "name": "stope_moving_asset",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "stope_name": {
+      "type": "string",
+      "required": true
+    },
+    "mobile_asset_name": {
+      "type": "string",
+      "required": true
+    },
+    "mobile_asset_number": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
